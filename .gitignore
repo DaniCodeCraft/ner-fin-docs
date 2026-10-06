@@ -1,0 +1,45 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (не коммитим)
+data/raw/
+data/processed/
+models/
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# HuggingFace / torch caches
+.cache/
+.cache_huggingface/
+.pytest_cache/
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
